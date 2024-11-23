@@ -1,0 +1,22 @@
+spring:
+  threads:
+    virtual:
+      enabled: true
+
+  application:
+    name: email
+  mail:
+    host: smtp.mail.yahoo.com
+    port: 587
+    username: sujon.sun@yahoo.com
+    password: qszzulscwkcfrfyy
+    # protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8086
